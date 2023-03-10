@@ -12,7 +12,7 @@ public class NoRecoilModule : Module
 	protected override void Initialize()
 	{
 		Name = "No Recoil";
-		WindowId = WindowIDs.Player.ToInt();
+		WindowId = WindowIDs.Main.ToInt();
 	}
 
 	public override void OnRender()

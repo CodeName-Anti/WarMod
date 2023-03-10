@@ -11,7 +11,7 @@ public class InfiniteStaminaModule : Module
 	protected override void Initialize()
 	{
 		Name = "Infinite Stamina";
-		WindowId = WindowIDs.Player.ToInt();
+		WindowId = WindowIDs.Main.ToInt();
 	}
 
 	public override void OnRender()

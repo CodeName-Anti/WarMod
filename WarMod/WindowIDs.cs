@@ -2,7 +2,7 @@
 
 public enum WindowIDs
 {
-	Player = 0
+	Main = 0
 }
 
 public static class WindowIDsExtension

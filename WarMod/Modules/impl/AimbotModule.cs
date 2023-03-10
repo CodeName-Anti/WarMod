@@ -18,7 +18,7 @@ public class AimbotModule : Module
 	{
 		Name = "Aimbot";
 
-		WindowId = WindowIDs.Player.ToInt();
+		WindowId = WindowIDs.Main.ToInt();
 	}
 
 	public override void OnRender()

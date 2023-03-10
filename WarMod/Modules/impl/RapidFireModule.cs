@@ -11,7 +11,7 @@ public class RapidFireModule : Module
 	protected override void Initialize()
 	{
 		Name = "RapidFire";
-		WindowId = WindowIDs.Player.ToInt();
+		WindowId = WindowIDs.Main.ToInt();
 	}
 
 	public override void OnRender()

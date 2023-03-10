@@ -11,7 +11,7 @@ public class InfiniteAmmoModule : Module
 	protected override void Initialize()
 	{
 		Name = "Infinite Ammo";
-		WindowId = WindowIDs.Player.ToInt();
+		WindowId = WindowIDs.Main.ToInt();
 	}
 
 	public override void OnRender()

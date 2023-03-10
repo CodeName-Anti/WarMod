@@ -9,7 +9,7 @@ public class MassiveKillModule : Module
 	protected override void Initialize()
 	{
 		Name = "Massive kill";
-		WindowId = WindowIDs.Player.ToInt();
+		WindowId = WindowIDs.Main.ToInt();
 	}
 
 	public override void OnRender()

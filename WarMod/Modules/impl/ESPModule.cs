@@ -12,7 +12,7 @@ public class ESPModule : Module
 	protected override void Initialize()
 	{
 		Name = "ESP";
-		WindowId = WindowIDs.Player.ToInt();
+		WindowId = WindowIDs.Main.ToInt();
 	}
 
 	public override void OnRender()

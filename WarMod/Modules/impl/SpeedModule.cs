@@ -9,7 +9,7 @@ public class SpeedModule : Module
 	protected override void Initialize()
 	{
 		Name = "Speed";
-		WindowId = WindowIDs.Player.ToInt();
+		WindowId = WindowIDs.Main.ToInt();
 	}
 
 	public override void OnRender()

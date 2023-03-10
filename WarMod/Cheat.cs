@@ -34,8 +34,8 @@ public class Cheat : MonoBehaviour
 		{
 			new Window()
 			{
-				WindowId = (int)WindowIDs.Player,
-				Title = "Player",
+				WindowId = (int)WindowIDs.Main,
+				Title = "WarMod by JNNJ",
 				WindowRect = new Rect(70, 90, 320, 400),
 				RenderAction = RenderWindow
 			}
