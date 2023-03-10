@@ -24,3 +24,5 @@ A simple but powerful cheat for [WarMode](https://store.steampowered.com/app/391
 4. Start the Game and then close it once you are in the Main Menu (We do this because we need bepinex to generate some files). The Game might take some time to start on the first launch.
 5. Go to the "plugins" in "WarMode/BepInEx/" (Will load after step 4) then copy the [WarMod.dll](https://github.com/CodeName-Anti/WarMod/releases/latest/download/WarMod.dll) into it.
 6. And you're done! Launch the game and your all set.
+
+**To open the menu use the right shift key.**
